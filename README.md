@@ -1,19 +1,20 @@
 coolbeevip/alpine-zookeeper
 ==============
 
-Run
------
-~~~~
-docker run --name zookeeper -p 2181:2181 coolbeevip/alpine-zookeeper 
-~~~~
-
-Ports
+RUN
 -----
 
-    2181
+```bash
+docker run --name zookeeper -p 2181:2181 coolbeevip/alpine-zookeeper
+```
 
-Volumn
+PORT
+-----
+
+2181
+
+VOLUME
 -----    
 
-    /opt/zookeeper-3.4.14/conf    
-    /opt/zookeeper-3.4.14/data
+/opt/zookeeper-3.4.14/conf    
+/opt/zookeeper-3.4.14/data
