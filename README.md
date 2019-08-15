@@ -16,5 +16,5 @@ PORT
 VOLUME
 -----    
 
-/opt/zookeeper-3.4.14/conf    
-/opt/zookeeper-3.4.14/data
+/opt/zookeeper/conf    
+/opt/zookeeper/data
