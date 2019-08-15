@@ -1,4 +1,4 @@
-FROM coolbeevip:alpine-jre:8
+FROM coolbeevip/alpine-jre:8
 
 MAINTAINER coolbeevip <coolbeevip@gmail.com>
 
